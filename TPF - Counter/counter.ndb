@@ -1,0 +1,99 @@
+NDB006
+The number of symbol table entries is: 7
+The length of the symbol table is: 223
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|count_decod:8|
+>	|contadorsincrono4bit_alt:51|
+\	|contadorsincrono4bit_alt:51|seletor:35|
+"'	|contadorsincrono4bit_alt:51|seletor:40|
+"P	|contadorsincrono4bit_alt:51|seletor:39|
+"y	|contadorsincrono4bit_alt:51|seletor:38|
+
+The number of name info structs is : 81
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IGdW	!	:15	"5
+#	IGdW	!	:16	"7
+$	IGdW	!	:17	"9
+%	IGdW	!	:18	";
+&	IGdW	!	:19	"A
+'	IGdW	!	:20	"@
+(	IGdW	!	:21	"?
+)	IGdW	!	:22	">
+*	IGdW	!	:23	"<
++	IGdW	!	:25	":
+,	IGdW	!	:26	"8
+-	IGdW	!	:27	"6
+.	IGdW	!	:32	"3
+/	IGdW	!	:33	"4
+0	IGdW	!	:34	"2
+1	IGdW	!	:35	"1
+2	IGdW	!	:36	"=
+3	IGdW	!	:40	"E
+4	IGdW	!	:41	"D
+5	IGdW	!	:42	"C
+6	IGdW	!	:43	"B
+7	IGdp	!	C0	v
+8	IGdp	!	C1	o
+9	IGdp	!	CLOCK	t
+:	IGdp	!	IN0	s
+;	IGdp	!	IN1	r
+<	IGdp	!	IN2	q
+=	IGdp	!	IN3	p
+>	IGdp	!	RESET	u
+?	IGdq	!	S0	z
+@	IGdq	!	S1	y
+A	IGdq	!	S2	x
+B	IGdq	!	S3	w
+C	IGdW	>	:12	#)
+D	IGdW	>	:13	#+
+E	IVOA	>	S	:14	#%
+F	IGdW	>	:17	#,
+G	IGdW	>	:18	#*
+H	IVOA	>	T	:19	#&
+I	IGdW	>	:22	#-
+J	IGdW	>	:23	#.
+K	IGdW	>	:27	##
+L	IGdW	>	:3	#!
+M	IVOA	>	Q	:4	#'
+N	IGdW	>	:5	#"
+O	IGdW	>	:8	#(
+P	IVOA	>	R	:9	#$
+Q	INum	>	M	Q0	#'
+R	INum	>	P	Q1	#$
+S	INum	>	E	Q2	#%
+T	INum	>	H	Q3	#&
+U	IGdW	\	:4	#9
+V	IGdW	\	:5	#:
+W	IGdW	\	:8	#;
+X	IVOQ	\	Y	:9	#<
+Y	INu}	\	X	S	#<
+Z	IGdW	"y	:4	#^
+[	IGdW	"y	:5	#_
+\	IGdW	"y	:8	#`
+]	IVOQ	"y	^	:9	#a
+^	INu}	"y	]	S	#a
+_	IGdW	"P	:4	#R
+`	IGdW	"P	:5	#S
+a	IGdW	"P	:8	#T
+b	IVOQ	"P	c	:9	#U
+c	INu}	"P	b	S	#U
+d	IGdW	"'	:4	#F
+e	IGdW	"'	:5	#G
+f	IGdW	"'	:8	#H
+g	IVOQ	"'	h	:9	#I
+h	INu}	"'	g	S	#I
+i	IGdW	.	:11	"W
+j	IGdW	.	:12	"X
+k	IVOQ	.	o	:2	"V
+l	IVOQ	.	p	:6	"U
+m	IVOQ	.	q	:7	"T
+n	IVOQ	.	r	:8	"S
+o	INu}	.	k	FUNC0	"V
+p	INu}	.	l	FUNC1	"U
+q	INu}	.	m	FUNC2	"T
+r	INu}	.	n	FUNC3	"S

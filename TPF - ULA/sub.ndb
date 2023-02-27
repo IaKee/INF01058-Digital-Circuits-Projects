@@ -1,0 +1,65 @@
+NDB006
+The number of symbol table entries is: 3
+The length of the symbol table is: 37
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|not_4bits:1|
+<	|adder:2|
+
+The number of name info structs is : 51
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IGdW	!	:10	"7
+#	IGdW	!	:11	"8
+$	IGdW	!	:12	"9
+%	IGdW	!	:13	":
+&	IGdp	!	A0	r
+'	IGdp	!	A1	q
+(	IGdp	!	A2	p
+)	IGdp	!	A3	o
+*	IGdq	!	B	w
++	IGdp	!	B0	v
+,	IGdp	!	B1	u
+-	IGdp	!	B2	t
+.	IGdp	!	B3	s
+/	IGdq	!	S0	|
+0	IGdq	!	S1	{
+1	IGdq	!	S2	z
+2	IGdq	!	S3	y
+3	IGdq	!	V	x
+4	IGdW	<	:15	"j
+5	IGdW	<	:16	"s
+6	IGdW	<	:17	"r
+7	IVOQ	<	J	:18	"k
+8	IGdW	<	:19	"x
+9	IGdW	<	:22	"w
+:	IGdW	<	:23	"q
+;	IGdW	<	:24	"p
+<	IVOQ	<	K	:25	"h
+=	IGdW	<	:26	"i
+>	IVOQ	<	H	:30	"v
+?	IGdW	<	:31	"o
+@	IGdW	<	:32	"n
+A	IVOQ	<	L	:33	"g
+B	IGdW	<	:34	"f
+C	IGdW	<	:4	"l
+D	IGdW	<	:5	"t
+E	IVOQ	<	I	:6	"m
+F	IGdW	<	:7	"u
+G	IGdW	<	:8	"y
+H	INu}	<	>	Cout	"v
+I	INu}	<	E	S0	"m
+J	INu}	<	7	S1	"k
+K	INu}	<	<	S2	"h
+L	INu}	<	A	S3	"g
+M	IVOQ	.	T	:2	"M
+N	IVOQ	.	S	:3	"P
+O	IVOQ	.	R	:4	"O
+P	IVOQ	.	Q	:5	"N
+Q	INu}	.	P	S0	"N
+R	INu}	.	O	S1	"O
+S	INu}	.	N	S2	"P
+T	INu}	.	M	S3	"M

@@ -1,0 +1,192 @@
+NDB006
+The number of symbol table entries is: 16
+The length of the symbol table is: 239
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|and_enable:14|
+>	|and_enable:17|
+N	|and_enable:16|
+^	|and_enable:15|
+n	|and_enable:13|
+~	|and_enable:12|
+"0	|and_enable:11|
+"@	|and_enable:10|
+"P	|or_4bits:18|
+"^	|or_4bits:25|
+"l	|or_4bits:24|
+"z	|or_4bits:22|
+#*	|or_4bits:21|
+#8	|or_4bits:20|
+#F	|or_4bits:19|
+
+The number of name info structs is : 165
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IGdp	!	A0	",
+#	IGdp	!	A1	"+
+$	IGdp	!	A2	"*
+%	IGdp	!	A3	")
+&	IGdp	!	B0	"0
+'	IGdp	!	B1	"/
+(	IGdp	!	B2	".
+)	IGdp	!	B3	"-
+*	IGdp	!	C0	~
++	IGdp	!	C1	}
+,	IGdp	!	C2	|
+-	IGdp	!	C3	{
+.	IGdp	!	D0	"$
+/	IGdp	!	D1	"#
+0	IGdp	!	D2	""
+1	IGdp	!	D3	"!
+2	IGdp	!	E0	"(
+3	IGdp	!	E1	"'
+4	IGdp	!	E2	"&
+5	IGdp	!	E3	"%
+6	IGdp	!	F0	r
+7	IGdp	!	F1	q
+8	IGdp	!	F2	p
+9	IGdp	!	F3	o
+:	IGdp	!	FUNC0	"8
+;	IGdp	!	FUNC1	"7
+<	IGdp	!	FUNC2	"6
+=	IGdp	!	FUNC3	"5
+>	IGdp	!	FUNC4	"4
+?	IGdp	!	FUNC5	"3
+@	IGdp	!	FUNC6	"2
+A	IGdp	!	FUNC7	"1
+B	IGdp	!	G0	v
+C	IGdp	!	G1	u
+D	IGdp	!	G2	t
+E	IGdp	!	G3	s
+F	IGdp	!	H0	z
+G	IGdp	!	H1	y
+H	IGdp	!	H2	x
+I	IGdp	!	H3	w
+J	IGdq	!	S0	"<
+K	IGdq	!	S1	";
+L	IGdq	!	S2	":
+M	IGdq	!	S3	"9
+N	IGdq	!	SUB_F	"=
+O	IVOQ	"@	V	:5	%n
+P	IVOQ	"@	U	:6	%q
+Q	IVOQ	"@	T	:7	%p
+R	IVOQ	"@	S	:8	%o
+S	INu}	"@	R	S0	%o
+T	INu}	"@	Q	S1	%p
+U	INu}	"@	P	S2	%q
+V	INu}	"@	O	S3	%n
+W	IVOQ	"0	^	:5	%[
+X	IVOQ	"0	]	:6	%^
+Y	IVOQ	"0	\	:7	%]
+Z	IVOQ	"0	[	:8	%\
+[	INu}	"0	Z	S0	%\
+\	INu}	"0	Y	S1	%]
+]	INu}	"0	X	S2	%^
+^	INu}	"0	W	S3	%[
+_	IVOQ	~	f	:5	%H
+`	IVOQ	~	e	:6	%K
+a	IVOQ	~	d	:7	%J
+b	IVOQ	~	c	:8	%I
+c	INu}	~	b	S0	%I
+d	INu}	~	a	S1	%J
+e	INu}	~	`	S2	%K
+f	INu}	~	_	S3	%H
+g	IVOQ	n	n	:5	%5
+h	IVOQ	n	m	:6	%8
+i	IVOQ	n	l	:7	%7
+j	IVOQ	n	k	:8	%6
+k	INu}	n	j	S0	%6
+l	INu}	n	i	S1	%7
+m	INu}	n	h	S2	%8
+n	INu}	n	g	S3	%5
+o	IVOQ	.	v	:5	$F
+p	IVOQ	.	u	:6	$I
+q	IVOQ	.	t	:7	$H
+r	IVOQ	.	s	:8	$G
+s	INu}	.	r	S0	$G
+t	INu}	.	q	S1	$H
+u	INu}	.	p	S2	$I
+v	INu}	.	o	S3	$F
+w	IVOQ	^	~	:5	%"
+x	IVOQ	^	}	:6	%%
+y	IVOQ	^	|	:7	%$
+z	IVOQ	^	{	:8	%#
+{	INu}	^	z	S0	%#
+|	INu}	^	y	S1	%$
+}	INu}	^	x	S2	%%
+~	INu}	^	w	S3	%"
+"!	IVOQ	N	"(	:5	$m
+""	IVOQ	N	"'	:6	$p
+"#	IVOQ	N	"&	:7	$o
+"$	IVOQ	N	"%	:8	$n
+"%	INu}	N	"$	S0	$n
+"&	INu}	N	"#	S1	$o
+"'	INu}	N	""	S2	$p
+"(	INu}	N	"!	S3	$m
+")	IVOQ	>	"0	:5	$Z
+"*	IVOQ	>	"/	:6	$]
+"+	IVOQ	>	".	:7	$\
+",	IVOQ	>	"-	:8	$[
+"-	INu}	>	",	S0	$[
+".	INu}	>	"+	S1	$\
+"/	INu}	>	"*	S2	$]
+"0	INu}	>	")	S3	$Z
+"1	IVOQ	"P	"8	:3	&&
+"2	IVOQ	"P	"7	:4	&)
+"3	IVOQ	"P	"6	:5	&(
+"4	IVOQ	"P	"5	:6	&'
+"5	INu}	"P	"4	S0	&'
+"6	INu}	"P	"3	S1	&(
+"7	INu}	"P	"2	S2	&)
+"8	INu}	"P	"1	S3	&&
+"9	IVOQ	#F	"@	:3	'S
+":	IVOQ	#F	"?	:4	'V
+";	IVOQ	#F	">	:5	'U
+"<	IVOQ	#F	"=	:6	'T
+"=	INu}	#F	"<	S0	'T
+">	INu}	#F	";	S1	'U
+"?	INu}	#F	":	S2	'V
+"@	INu}	#F	"9	S3	'S
+"A	IVOQ	#8	"H	:3	'<
+"B	IVOQ	#8	"G	:4	'?
+"C	IVOQ	#8	"F	:5	'>
+"D	IVOQ	#8	"E	:6	'=
+"E	INu}	#8	"D	S0	'=
+"F	INu}	#8	"C	S1	'>
+"G	INu}	#8	"B	S2	'?
+"H	INu}	#8	"A	S3	'<
+"I	IVOQ	#*	"P	:3	'%
+"J	IVOQ	#*	"O	:4	'(
+"K	IVOQ	#*	"N	:5	''
+"L	IVOQ	#*	"M	:6	'&
+"M	INu}	#*	"L	S0	'&
+"N	INu}	#*	"K	S1	''
+"O	INu}	#*	"J	S2	'(
+"P	INu}	#*	"I	S3	'%
+"Q	IVOQ	"z	"X	:3	&l
+"R	IVOQ	"z	"W	:4	&o
+"S	IVOQ	"z	"V	:5	&n
+"T	IVOQ	"z	"U	:6	&m
+"U	INu}	"z	"T	S0	&m
+"V	INu}	"z	"S	S1	&n
+"W	INu}	"z	"R	S2	&o
+"X	INu}	"z	"Q	S3	&l
+"Y	IVOQ	"l	"`	:3	&U
+"Z	IVOQ	"l	"_	:4	&X
+"[	IVOQ	"l	"^	:5	&W
+"\	IVOQ	"l	"]	:6	&V
+"]	INu}	"l	"\	S0	&V
+"^	INu}	"l	"[	S1	&W
+"_	INu}	"l	"Z	S2	&X
+"`	INu}	"l	"Y	S3	&U
+"a	IVOQ	"^	"h	:3	&>
+"b	IVOQ	"^	"g	:4	&A
+"c	IVOQ	"^	"f	:5	&@
+"d	IVOQ	"^	"e	:6	&?
+"e	INu}	"^	"d	S0	&?
+"f	INu}	"^	"c	S1	&@
+"g	INu}	"^	"b	S2	&A
+"h	INu}	"^	"a	S3	&>
